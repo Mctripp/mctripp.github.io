@@ -1,14 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
     <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link href="assets/styles/main.css" rel="stylesheet">
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+      <link href="assets/styles/grayscale.min.css" rel="stylesheet">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body>
-      <h1> Portfolio Template </h1>
+    <body id="page-top">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">M.T.</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+          <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">Michael Tripp</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">software developer with an engineering background</h2>
+            <a href="#about" class="btn btn-primary js-scroll-trigger">About me</a>
+            <a href="#resume" class="btn btn-primary js-scroll-trigger">My resume</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- About Section -->
+      <section id="about" class="about-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Creative solutions</h2>
+              <p class="text-white-50">I'm a software developer with a background in engineering and a passion for problem-solving. I employ practical solutions that work, and recognize when to think outside of the box.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="skills" class="skills-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/atom-original.svg?size=65" alt="Atom"/>
+                <span class="tooltiptext">Atom</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/ruby-original-wordmark.svg?size=65" alt="Ruby"/>
+                <span class="tooltiptext">Ruby</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/sass-original.svg?size=65" alt="Sass"/>
+                <span class="tooltiptext">Sass</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=65" alt="Bootstrap"/>
+                <span class="tooltiptext">Bootstrap</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/css3-original-wordmark.svg?size=65" alt="CSS"/>
+                <span class="tooltiptext">CSS</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/express-original.svg?size=65" alt="Express"/>
+                <span class="tooltiptext">Express</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/git-original-wordmark.svg?size=65" alt="Git"/>
+                <span class="tooltiptext">Git</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/handlebars-original-wordmark.svg?size=65" alt="Handlebars"/>
+                <span class="tooltiptext">Handlebars</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/html5-original-wordmark.svg?size=65" alt="HTML"/>
+                <span class="tooltiptext">HTML</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/javascript-original.svg?size=65" alt="JavaScript"/>
+                <span class="tooltiptext">JavaScript</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/jquery-original-wordmark.svg?size=65" alt="JQuery"/>
+                <span class="tooltiptext">JQuery</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=65" alt="MongoDB"/>
+                <span class="tooltiptext">MongoDB</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/nodejs-original.svg?size=65" alt="Node.js"/>
+                <span class="tooltiptext">Node.js</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=65" alt="PostgreSQL"/>
+                <span class="tooltiptext">PostgreSQL</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/react-original-wordmark.svg?size=65" alt="React"/>
+                <span class="tooltiptext">React</span>
+              </div>
+              <div class="icon-container">
+                <img class="img-fluid" src="https://icongr.am/devicon/heroku-original-wordmark.svg?size=65" alt="Heroku"/>
+                <span class="tooltiptext">Heroku</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section bg-light">
+        <div class="container">
+
+          <!-- Featured Project Row -->
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7">
+              <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Capstone</h4>
+                <p class="text-black-50 mb-0">This is the blurb for my capstone project.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project One Row -->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="bg-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">Bucket list</h4>
+                    <p class="mb-0 text-white-50">This is the blurb for project three, bucket list.</p>
+                    <hr class="d-none d-lg-block mb-0 ml-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Two Row -->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bg-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Character creator</h4>
+                    <p class="mb-0 text-white-50">This is the blurb for my dnd character flavor text creator.</p>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Three Row -->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="bg-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">Tic-tac-toe</h4>
+                    <p class="mb-0 text-white-50">This is the blurb for my tic tac toe game.</p>
+                    <hr class="d-none d-lg-block mb-0 ml-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- Signup Section -->
+      <!-- <section id="signup" class="signup-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+              <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+              <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+              <form class="form-inline d-flex">
+                <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+                <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Contact Section -->
+      <section class="contact-section bg-black">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">LinkedIn</h4>
+                  <hr class="my-4">
+                  <div class="small text-black-50">Change this icon</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-envelope text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">Contact Me</h4>
+                  <hr class="my-4">
+                  <div class="small text-black-50">
+                    <a href="#">mctripp94@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">Github</h4>
+                  <hr class="my-4">
+                  <div class="small text-black-50">Maybe something else, change icon</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="social d-flex justify-content-center">
+            <a href="#" class="mx-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="mx-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="mx-2">
+              <i class="fab fa-github"></i>
+            </a>
+          </div> -->
+
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+          Copyright &copy; Your Website 2019
+        </div>
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/grayscale.min.js"></script>
+
     </body>
 </html>
