@@ -162,6 +162,11 @@
   background-color: rgb(8, 36, 8) !important;
 }
 
+.self-portrait {
+  border-radius: 50%;
+  border: 0.25rem rgb(231, 193, 21) solid;
+}
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #062f2f 0%, rgba(6, 47, 47, 0.9) 75%, rgba(6, 47, 47, 0.8) 100%);
