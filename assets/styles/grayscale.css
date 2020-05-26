@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: rgb(231, 193, 2);
-  border: 1px solid rgb(231, 193, 2);
+  color: rgb(17, 73, 16);
+  border: 1px solid rgb(17, 73, 16);
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: rgb(231, 193, 2);
+    color: rgb(17, 73, 16);
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: rgb(231, 193, 2);
+    color: rgb(17, 73, 16);
     outline: none;
-    border-bottom: 0.25rem solid rgb(231, 193, 2);
+    border-bottom: 0.25rem solid rgb(17, 73, 16);
   }
 }
 
@@ -167,6 +167,10 @@
   background: linear-gradient(to bottom, #062f2f 0%, rgba(6, 47, 47, 0.9) 75%, rgba(6, 47, 47, 0.8) 100%);
 }
 
+.about-section a:hover{
+  color: rgb(0, 0, 0);
+}
+
 .about-section p {
   margin-bottom: 5rem;
 }
@@ -174,7 +178,7 @@
 .skills-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(6, 47, 47, 0.8) 0%, rgba(6, 47, 47, 0.3) 100%);
-  border-bottom: 2px solid rgb(231, 193, 2);
+  border-bottom: 2px solid rgb(17, 73, 16);
 }
 
 .icon-container {
@@ -224,7 +228,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid rgb(231, 193, 2);
+    border-left: 0.5rem solid rgb(17, 73, 16);
   }
 }
 
@@ -238,7 +242,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: rgb(231, 193, 2);
+    border-color: rgb(17, 73, 16);
     border-width: .25rem;
     width: 30%;
   }
@@ -270,7 +274,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid rgb(231, 193, 2);
+  border-bottom: 0.25rem solid rgb(17, 73, 16);
 }
 
 .contact-section .card h4 {
@@ -281,7 +285,7 @@
 }
 
 .contact-section .card hr {
-  border-color: rgb(231, 193, 2);
+  border-color: rgb(17, 73, 16);
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -314,12 +318,16 @@ body {
 }
 
 a {
-  color: rgb(231, 193, 2);
+  color: rgb(231, 193, 21);
+}
+
+.contact-section a {
+  color: rgb(17, 73, 16);
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: rgb(231, 193, 21);
 }
 
 .bg-black {
@@ -327,11 +335,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: rgb(231, 193, 2) !important;
+  background-color: rgb(17, 73, 16) !important;
 }
 
 .text-primary {
-  color: rgb(231, 193, 2) !important;
+  color: rgb(17, 73, 16) !important;
 }
 
 footer {
