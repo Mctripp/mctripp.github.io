@@ -222,8 +222,20 @@
   transition: visibility 0s linear 0s, opacity 300ms;
 }
 
+.screenshot {
+  transition: border .3s;
+}
+
+.screenshot:hover {
+  border: 0.2rem solid rgb(231, 193, 21);
+}
+
 .projects-section {
   padding: 10rem 0;
+}
+
+.proj-section {
+  margin-bottom: 0.5rem;
 }
 
 .projects-section .featured-text {
